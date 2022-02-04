@@ -1,0 +1,556 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+ }
+ #smallscreen{
+     background-color: black;
+ }
+ .largescreen{
+    font-family: 'Quicksand', sans-serif;
+ }
+ .desc{
+     color:rgb(69, 69, 75);
+     opacity: 2.5;
+     line-height: 150%;
+     font-family: 'Poppins', sans-serif;
+ }
+ .navlist{
+     transition: 2s;
+ }
+ 
+ nav{
+     
+     width:100%;
+ }
+ nav ul li{
+     display: inline-block;
+     line-height: 50px;
+     margin:0 10px;
+ }
+ label.mainlogo{
+     font-size:15px;
+     font-weight: bold;
+     line-height: 50px;
+}
+.mainlogo{
+    margin-left: 2%;
+    font-family: 'Prompt', sans-serif;
+}
+ nav ul{
+     float:right;
+     margin-right: 20px;
+
+ }
+ nav ul li a{
+     color:rgb(70, 67, 67);
+     font-size:15px;
+     border-radius: 10px;
+     ;
+
+ }
+ a:hover,a.active{
+     background-color: rgb(188, 188, 196,0.4);
+     transition: 0.5s;
+     
+     
+
+ }
+ 
+ a{
+
+     margin : 10 px;
+     padding: 10px;
+ }
+ .page1{
+     width: 100%;
+     max-width: 2100px;
+ }
+ .checkbtn{
+     font-size: 20px;
+     color: black;
+     float: right;
+     line-height: 80px;
+     margin-right: 40px;
+     cursor: pointer;
+     display:none;
+     margin-top: -15px;
+     
+ }
+ #check{
+     display:none;
+ }
+
+ #smallscreen li{
+     display:none;
+     
+     
+     
+ }
+ #lmessage{
+     height:20px;
+     width:20px;
+     margin-top: 5px;
+     margin-bottom: -4px;
+     
+ }
+ #feedback1{
+     background-color: blue;
+     width:20%;
+     color: white;
+     border-radius: 50px;
+     
+ }
+ 
+ .intro{
+     
+     font-size: 75px;
+     text-align: left;
+     margin-left: 10px;
+     
+ }
+ .desc{
+     
+     margin:10px;
+     text-align: left;
+     
+ }
+ 
+ 
+ .right-image{
+     width: 50%;
+     align-items: right;
+     margin:auto;
+     
+     
+     
+ }
+ .left-text{
+     width:50%;
+ }
+ .page2{
+     width:100%;
+     
+     display: flex;
+     flex-direction: row;
+     background-color: rgb(207, 205, 202,0.5);
+     word-wrap: break-word;
+     
+     
+     
+ }
+ .phone{
+     width:18%;
+     position:absolute;
+     z-index: 1;
+     margin-top:-18%;
+     
+ }
+ 
+     
+
+
+     
+ 
+ .app{
+     height: 10%;
+ }
+ .google{
+     height: 10%;
+ }
+ .page3{
+     background-image: linear-gradient(90deg,rgb(71, 25, 197),rgb(126, 48, 156));
+     font-size: 30px;
+     color: white;
+     
+
+ }
+ .tnw{
+     height: auto;
+     width: 20%;
+     padding: 5px;
+     margin:5% ;
+     
+ }
+ .page3 p{
+     padding-top: 10%;
+     padding-left: 5%;
+     padding-right:5% ;
+     justify-content: center;
+     
+ }
+ 
+ 
+ 
+ .page4{
+     width: 100%;
+     max-width: 2100px;
+     margin-top: 2.3%;
+     margin-left: 4%;
+     min-height: 500px;
+ }
+ .phonepage4{
+     width: 10%;
+     height: auto;
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .video{
+     border-radius: 10px;
+     
+ }
+
+ 
+ 
+ .leftside{
+     width: 40%;
+ }
+ .rightside{
+     width: 60%;
+     vertical-align: middle;
+ }
+ .page4{
+     display: flex;
+     flex-direction: row;
+ }
+ .phonepage4{
+    position :absolute; 
+    margin-top:4.3%;
+    margin-left: 4%;
+    height:390px;
+    width:195px;
+    z-index: 1;
+ }
+ .leftside video{
+     position: absolute;
+     margin:5%;
+     height: 380px;
+     border-radius: 15px;
+ }
+ td{
+     text-align: center;
+ }
+ .heading{
+     text-align: center;
+     font-size: 20px;
+
+ }
+ table{
+     padding:3%;
+     margin: 5px;
+     width:100%;
+     
+     
+     
+ }
+
+ td{
+     padding: 5%;
+
+ }
+ .page5{
+     background-color: rgb(214, 220, 224,0.3);
+     display:flex;
+     padding: 15%;
+ }
+ .lmn img{
+     height: 100%;
+     width:90%;
+     clip-path: circle();
+ }
+ .lmn{
+     width:45%
+ }
+ .xyz{
+     width: 55%;
+ }
+ .page5 p{
+     padding-top:10%;
+     font-size: 130%;
+     padding-right:10%;
+     font-family: 'Prompt', sans-serif;
+     color:rgb(105, 105, 105)
+ }
+ .page5 h1{
+     font-size: 350%;
+     padding-right:10%;
+ }
+ .page6 {
+     
+     width: 100%;
+     height: 100%;
+     padding: 20%;
+     background:url(Photoshop-sketch-SOURCE-Adobe-Feature.jpeg);
+     background-size:cover;
+     
+     
+ }
+ 
+  
+ .page6 h1{
+    position: relative; 
+    font-size: 400%;
+    line-height:120%;
+    color:white;
+    
+
+
+     
+ }
+ .but{
+     background: none;
+     font-size:20px ;
+     border-radius: 20px;
+     padding: 2%;
+     margin: 1%;
+     color:white;
+     border: 2px solid white;
+     cursor: pointer;
+     
+     
+ }
+ .page7{
+    background-image: linear-gradient(90deg,rgb(71, 25, 197),rgb(121, 32, 116));
+    padding:5%;
+    text-align: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+ }
+ .page7 h2{
+    padding: 2%;
+    font-size: 200%;
+ }
+ .ss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ .pp{
+     width:20%;
+ }
+ .cc{
+     width: 20%;
+ }
+ .footer{
+     background-color: black;
+     color:white;
+     text-align: center;
+     padding: 1%;
+     line-height: 150%;
+ }
+.right-image video{
+    border-radius: 57px;
+}
+.sm{
+    display: none;
+}
+.left-text img:hover{
+    cursor: pointer;
+}
+.page7 img:hover{
+    cursor:pointer;
+}
+.page4 i{
+    color: transparent;
+    background: linear-gradient(90deg,rgb(71, 25, 197),rgb(121, 32, 116));
+    -webkit-background-clip: text;
+    font-size: 320%;
+}
+.page4 p{
+    opacity: 0.75;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(70, 68, 68);
+    font-size: 85%;
+}
+.page2{
+    min-height: 530px;
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @media only screen and (max-width:700px){
+    .checkbtn{
+        display: flex;
+        align-items: right;
+    }
+    .navbar{
+        height:1.3%;
+        background-color: whitesmoke;
+        transition: all 5.7s ease-out;
+    }
+    .navlist{
+        transition: all 5.7s ease-out;
+    }
+    .page2{
+        margin-top:-35%;
+    }
+    .left-text{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-image{
+        width: 100vh;
+        margin-top: 50%;
+        margin-left: 20%;
+        height:410px;
+    }
+    .right-image img{
+        transform: translate(-25%,30%);
+    }
+    .right-image video{
+        transform: translate(-25%,30%);
+    }
+    
+    .page2{
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 25%;
+        
+    }
+    .left-text img{
+        width:40%;
+        height: 20%;
+        margin-top:2%;
+        margin-bottom:2%;
+        
+
+    } 
+    .hmbrgr-open{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        cursor:pointer;
+        margin:7%;
+        margin-right: 20%;
+        margin-bottom: 3%;
+           
+     }
+     .hmbrgr-closed{
+         display: none;
+     }
+     .rightside{
+         display: none;
+     }
+     .sm{
+         display: flex;
+         width: 100%;
+         flex-direction: column;
+     }
+     .phonepage4{
+         display: none;
+     }
+     .video1{
+         display: none;
+     }
+     .sm i{
+         font-size: 300%;
+         text-align: center;
+     }
+     .single{
+         padding:4%;
+         margin:4%;     }
+    .phone-page4{
+        position: absolute;
+        height:500px;
+        margin-left:10%;
+        z-index: 1;
+    }
+    .video2{
+        position: relative;
+        height:490px;
+        border-radius: 30px;
+        margin-left: 15%;
+    }
+    .xyz{
+        width:100%;
+    }
+    .page5{
+        display: flex;
+        flex-direction: column;
+    }
+    .lmn{
+        padding: 20%;
+        
+        
+    }
+    .leftside{
+        width:0%;
+    }
+    .lmn img{
+        width:1500%;
+        transform: translate(0%,0%);
+        
+    }.page5 p{
+        padding-right: 0%;
+        text-align: center;
+    }
+    .page5 h1{
+        text-align: center;
+    }
+    .ss{
+        display:flex;
+        flex-direction: column;
+    }
+    .ss img{
+        padding:1%;
+        margin: 1%;
+        height: 100%;
+    }
+    .pp{
+        width: 50%;
+        
+    }
+    .cc{
+        width: 50%;
+    }
+    .page3{
+        height: 400px;
+        
+    }
+    .page3 p{
+        vertical-align:middle;
+        padding-top: 17%;
+    }
+    .tnw{
+        width: 40%;
+        padding: 8px;
+        margin: 9%;
+    }
+    .dotsm{
+        display: block;
+    }
+    
+    
+    
+    
+     
+     
+     
+ }
+  
+ 
+ 
